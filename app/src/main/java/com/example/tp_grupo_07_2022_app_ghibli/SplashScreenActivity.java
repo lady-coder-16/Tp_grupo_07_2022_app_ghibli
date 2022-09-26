@@ -23,7 +23,7 @@ public class SplashScreenActivity extends AppCompatActivity {
                 Intent intent = new Intent(SplashScreenActivity.this, LoginActivity.class);
                 //le indicamos la intencion que tenemos
                 startActivity(intent);
-                //se finaliza la actividad donde nos enconrtamos
+                //se finaliza la actividad donde nos encontramos
                 finish();
             }
         }, tiempo_espera);
