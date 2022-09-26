@@ -20,6 +20,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        saludarUsuario();
         //hacemos la conección de la variable local con la variable del archivo activity_main
         etnota1 = findViewById(R.id.etnota1);
         etnota2 = findViewById(R.id.etnota2);
@@ -38,6 +39,16 @@ public class MainActivity extends AppCompatActivity {
                 calcular(nota1, nota2);
             }
         });
+    }
+
+    private void saludarUsuario() {
+        Bundle bundle = getIntent().getExtras();
+
+        if(bundle != null){
+            String usuario = bundle.getString("usuario");
+
+            Toast.makeText(MainActivity.this, "Bienvenido " + usuario, Toast.LENGTH_SHORT).show();
+        }
     }
 
     private void calcular(int nota1, int nota2) {
