@@ -7,6 +7,11 @@
     android:orientation="vertical"
     tools:context=".LoginActivity">
 
+    <include
+        android:id="@+id/menu_toolbar"
+        layout="@layout/toolbar_principal"
+        />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -18,9 +23,9 @@
         android:id="@+id/etUsuario"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Mi nombre de usuario es ***"
         android:gravity="center"
-        />
+        android:hint="Mi nombre de usuario es ***"
+        android:minHeight="48dp" />
 
     <TextView
         android:layout_width="match_parent"
@@ -33,9 +38,9 @@
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="textPassword"
         android:gravity="center"
-        />
+        android:inputType="textPassword"
+        android:minHeight="48dp" />
 
     <CheckBox
         android:id="@+id/cbRecordarUsuario"

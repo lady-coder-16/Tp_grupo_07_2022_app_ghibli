@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TP_Grupo_07_2022_app_ghibli</string>
+    <string name="texto_item_agregar">Agregar</string>
 </resources>

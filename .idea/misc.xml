@@ -3,10 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_agregar.xml" value="0.17831813576494426" />
         <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_login.xml" value="0.26685393258426965" />
         <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_main.xml" value="0.25" />
         <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_register.xml" value="0.26685393258426965" />
         <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_splash_screen.xml" value="0.13551165146909827" />
+        <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/activity_usuario.xml" value="0.11423505572441743" />
+        <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/layout/toolbar_principal.xml" value="0.1778115501519757" />
+        <entry key="..\:/Users/Day/AndroidStudioProjects/TP_Grupo_07_2022_app_ghibli/app/src/main/res/menu/menu_main.xml" value="0.33" />
       </map>
     </option>
   </component>
