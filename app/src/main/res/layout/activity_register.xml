@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Registro de usuario"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etUsuarioRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mi nombre de usuario es ***"
+        android:gravity="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ingresar Contraseña"
+        android:gravity="center"
+        />
+
+    <EditText
+        android:id="@+id/etPasswordRegistro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:gravity="center"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum ="1" >
+
+        <Button
+            android:id="@+id/btnRegistrarNuevoUsuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Registrarse"
+            android:layout_weight ="0.5"
+            />
+
+    </LinearLayout>
+
+</LinearLayout>

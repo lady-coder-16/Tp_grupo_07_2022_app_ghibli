@@ -13,7 +13,7 @@ import android.widget.Toast;
 
 public class LoginActivity extends AppCompatActivity {
 
-    EditText etUsuario, etPassword;
+    EditText etUsuario, etPassword, etUsuarioRegistro, etPasswordRegistro;
     Button btnIniciarSesion, btnRegistrarse;
     CheckBox cbRecordarUsuario;
 
@@ -25,6 +25,8 @@ public class LoginActivity extends AppCompatActivity {
         // EditText
         etUsuario = findViewById(R.id.etUsuario);
         etPassword = findViewById(R.id.etPassword);
+        etUsuarioRegistro = findViewById(R.id.etUsuarioRegistro);
+        etPasswordRegistro = findViewById(R.id.etPasswordRegistro);
 
         // CheckBox
         cbRecordarUsuario = findViewById(R.id.cbRecordarUsuario);
@@ -48,6 +50,14 @@ public class LoginActivity extends AppCompatActivity {
         });
 
         btnRegistrarse = findViewById(R.id.btnRegistrarse);
+        btnRegistrarse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("TODO", "Se apreto el boton registrarse");
+                Intent register_activity = new Intent(LoginActivity.this, RegisterActivity.class);
+                startActivity(register_activity);
+            }
+        });
 
 
     }
