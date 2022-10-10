@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
 
         // CheckBox
         cbRecordarUsuario = findViewById(R.id.cbRecordarUsuario);
-
+// comentario para pushear
         // Button
         btnIniciarSesion = findViewById(R.id.btnIniciarSesion);
         btnIniciarSesion.setOnClickListener(new View.OnClickListener() {
