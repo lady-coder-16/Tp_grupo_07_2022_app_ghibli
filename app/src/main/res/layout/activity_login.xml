@@ -5,7 +5,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@drawable/studio_ghibli_carga"
     tools:context=".LoginActivity">
+
+
 
     <include
         android:id="@+id/menu_toolbar"
@@ -70,5 +73,6 @@
             android:layout_weight ="0.5"
             />
     </LinearLayout>
+
 
 </LinearLayout>
