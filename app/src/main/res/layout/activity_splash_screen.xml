@@ -7,9 +7,10 @@
     tools:context=".SplashScreenActivity">
 
     <ImageView
+        android:id="@+id/imagen"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:src="@drawable/studio_ghibli_carga"/>
+        android:layout_height="match_parent"/>
+        <!--android:src="@drawable/studio_ghibli_carga"/>-->
         <!--le indicamos la ubicacion de la imagen de carga -->
 
 </FrameLayout>
