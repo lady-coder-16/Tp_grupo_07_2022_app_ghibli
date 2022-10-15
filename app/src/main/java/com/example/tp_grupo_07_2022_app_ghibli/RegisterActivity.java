@@ -17,7 +17,7 @@ import com.example.tp_grupo_07_2022_app_ghibli.helpers.UsuarioManager;
 public class RegisterActivity extends AppCompatActivity {
 
     EditText etUsuarioRegistro, etPasswordRegistro;
-    Button btnRegistrarNuevoUsuario;
+    Button btnRegistrarNuevoUsuario, btnVolver;
     Toolbar menu_toolbar;
 
     @Override
@@ -53,6 +53,16 @@ public class RegisterActivity extends AppCompatActivity {
                     Toast.makeText(RegisterActivity.this, "ERROR", Toast.LENGTH_LONG).show();
                 }
 
+            }
+        });
+
+        btnVolver = findViewById(R.id.btnVolver);
+        btnVolver.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("TODO", "Se apretó el botón volver");
+                Intent login_activity = new Intent(RegisterActivity.this, LoginActivity.class);
+                startActivity(login_activity);
             }
         });
 
