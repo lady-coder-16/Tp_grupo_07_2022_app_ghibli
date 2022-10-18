@@ -8,8 +8,6 @@
     android:background="@drawable/studio_ghibli_carga"
     tools:context=".LoginActivity">
 
-
-
     <include
         android:id="@+id/menu_toolbar"
         layout="@layout/toolbar_principal"

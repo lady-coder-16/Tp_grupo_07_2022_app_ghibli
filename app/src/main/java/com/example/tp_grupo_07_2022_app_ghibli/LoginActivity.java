@@ -24,6 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
 
+        //menu
         menu_toolbar = findViewById(R.id.menu_toolbar);
         setSupportActionBar(menu_toolbar);
         getSupportActionBar().setTitle("Login");
@@ -62,8 +63,8 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Log.i("TODO", "Se apreto el boton registrarse");
-                Intent register_activity = new Intent(LoginActivity.this, RegisterActivity.class);
-                startActivity(register_activity);
+                Intent terminos_activity = new Intent(LoginActivity.this, TerminosYCondicionesActivity.class);
+                startActivity(terminos_activity);
             }
         });
 
