@@ -50,7 +50,9 @@ public class LoginActivity extends AppCompatActivity {
                     Toast.makeText(LoginActivity.this, "Los campos no pueden estar vacios", Toast.LENGTH_SHORT).show();
                 } else{
                     Intent main_activity = new Intent(LoginActivity.this, MainActivity.class);
+                    main_activity.putExtra("usuario", usuario);
                     startActivity(main_activity);
+                    finish();
                 }
             }
         });
