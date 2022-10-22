@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <solid android:color="#000000"/>
+
+    <!--   Ancho y color del Borde-->
+    <stroke
+        android:width="4dp"
+        android:color="#000000" />
+    <!--        android:color="#52B1E5" />-->
+
+    <!--    // El radio de las esquinas.  Cuando mas alto el valor mas redondeada seran las esquinas-->
+    <corners android:radius="50dp"/>
+
+    <!--    // Marco Interno-->
+    <padding
+        android:left="2dp"
+        android:top="2dp"
+        android:right="2dp"
+        android:bottom="2dp" >
+
+    </padding>
+</shape>
