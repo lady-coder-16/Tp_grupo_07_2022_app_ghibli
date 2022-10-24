@@ -1,4 +1,39 @@
 <resources>
     <string name="app_name">TP_Grupo_07_2022_app_ghibli</string>
     <string name="texto_item_agregar">Agregar</string>
+
+<!--    Lineas de prueba-->
+    <string name="Peli_1">Castle in the Sky</string>
+    <string name="Peli_2">Totoro in the Sky</string>
+    <string name="Peli_3">Toretto in the Sky</string>
+    <string name="Peli_4">Sky in the Sky</string>
+    <string name="Peli_5">Castle in the Rainbow</string>
+    <string name="Peli_6">Kiki in the Sky</string>
+    <string name="Peli_7">Kiki returns</string>
+    <string name="Peli_8">Castle in the Castle</string>
+    <string name="Peli_9">Luciernagas</string>
+    <string name="Peli_10">El regreso del gato</string>
+
+    <string name="Peli_1_director">Hayao Miyazaki</string>
+    <string name="Peli_2_director">Isao Takahata</string>
+    <string name="Peli_3_director">Hayao Miyazaki</string>
+    <string name="Peli_4_director">Isao Takahata</string>
+    <string name="Peli_5_director">Hayao Miyazaki</string>
+    <string name="Peli_6_director">Isao Takahata</string>
+    <string name="Peli_7_director">Hayao Miyazaki</string>
+    <string name="Peli_8_director">Isao Takahata</string>
+    <string name="Peli_9_director">Hayao Miyazaki</string>
+    <string name="Peli_10_director">Isao Takahata</string>
+
+    <string name="Peli_1_fecha">1890</string>
+    <string name="Peli_2_fecha">1960</string>
+    <string name="Peli_3_fecha">1980</string>
+    <string name="Peli_4_fecha">1696</string>
+    <string name="Peli_5_fecha">1984</string>
+    <string name="Peli_6_fecha">1960</string>
+    <string name="Peli_7_fecha">1985</string>
+    <string name="Peli_8_fecha">1936</string>
+    <string name="Peli_9_fecha">1985</string>
+    <string name="Peli_10_fecha">1970</string>
+
 </resources>
