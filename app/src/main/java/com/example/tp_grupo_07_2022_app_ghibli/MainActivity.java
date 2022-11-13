@@ -79,6 +79,9 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
             case R.id.salir:
                 Toast.makeText(this,"Cerrando Sesión...",Toast.LENGTH_SHORT).show();
+                Intent i= new Intent(this,LoginActivity.class);
+                startActivity(i);
+
                 return true;
 
 
