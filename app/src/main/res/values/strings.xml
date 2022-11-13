@@ -1,4 +1,25 @@
 <resources>
     <string name="app_name">TP_Grupo_07_2022_app_ghibli</string>
-    <string name="texto_item_agregar">Agregar</string>
+
+    <string name="title_activity_pantalla_inicio">Studio Ghibli App - Grupo 07 -</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Studio Ghibli App</string>
+    <string name="nav_header_subtitle"> - Grupo 07 - </string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Peliculas</string>
+    <string name="menu_slideshow">Personajes</string>
+    <string name="menu_lugares">Lugares</string>
+    <string name="menu_especies">Especies</string>
+    <string name="menu_vehiculos">Vehiculos</string>
+
+    <!--Iconos de Menu (Toolbar)-->
+    <string name="text_buscar">Buscar</string>
+    <string name="text_filtro">Filtro</string>
+    <string name="text_settings">Ajustes</string>
+    <string name="text_about_us">Nosotras</string>
+    <string name="text_cerrar_sesion">Cerrar Sesión</string>
+
 </resources>

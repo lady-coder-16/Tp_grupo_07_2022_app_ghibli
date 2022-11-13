@@ -3,7 +3,38 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/item_agregar"
-        android:title="@string/texto_item_agregar"
-        app:showAsAction="always" />
+        android:id="@+id/buscar"
+        android:icon="@drawable/ic_action_buscar_24_menu"
+        android:title="@string/text_buscar"
+        app:showAsAction="ifRoom"
+        app:actionViewClass="android.widget.SearchView" />
+
+    <item
+        android:id="@+id/filtro"
+        android:title="@string/text_filtro"
+        android:icon="@drawable/ic_action_filtro_24_menu"
+        app:showAsAction="ifRoom"/>
+
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/text_settings"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/about_us"
+        android:orderInCategory="100"
+        android:title="@string/text_about_us"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/salir"
+        android:orderInCategory="100"
+        android:title="@string/text_cerrar_sesion"
+        android:icon="@drawable/ic_action_cerrar_sesion_24_menu"
+        app:showAsAction="never" />
+
+
+
 </menu>
